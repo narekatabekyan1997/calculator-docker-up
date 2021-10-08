@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+./node-calculator/node_modules
+./react-calculator/node_modules
+.idea/

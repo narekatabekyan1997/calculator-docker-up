@@ -1,0 +1,25 @@
+.InputComponent {
+  box-shadow: 9px 11px 30px -4px rgba(34, 60, 80, 0.21);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.input {
+  width: 320px;
+  padding: 15px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #04527f;
+  background-color: transparent;
+  margin: 15px 0;
+  color: #04527f;
+  font-size: 20px;
+}
+.errText {
+  color: red;
+  font-size: 13px;
+}
+
+.btn {
+  margin-top: 20px;
+}

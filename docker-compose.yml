@@ -1,0 +1,20 @@
+
+version: '3'
+
+services:
+  backend:
+    build:
+      context: ./node-calculator
+      dockerfile: ./Dockerfile
+    image: "user/node-calculator-new"
+    ports:
+      - "3001:3001"
+  frontend:
+    build:
+      context: ./react-calculator
+      dockerfile: ./Dockerfile
+    image: "user/react-calculator-new"
+    ports:
+      - "3000:3000"
+    links:
+      - "backend:be"
